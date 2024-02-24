@@ -26,9 +26,12 @@ html {
 
 }
 
+.navbar-item-text {
+    margin: 0;
+}
+
 .navbar-items {
     display: inline-flex;
-    height: 100%;
     align-items: center;
     width: 26%;
     justify-content: space-between;
@@ -36,9 +39,9 @@ html {
 }
 
 .logo {
-    padding-left: 75px;
+    padding-left: 4%;
     display: flex;
-    height: 100%;
+    font-size: 3cap;
     align-items: center;
     font-family: "Kodchasan", sans-serif;
     font-weight: 200;
@@ -52,8 +55,13 @@ html {
     font-size: 24px;
     font-style: normal;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 10px;
     transition: .15s;
+    display: flex;
+    align-items: center;
+}
+.navbar-item span {
+    padding-left: 5px;
 }
 
 .navbar-item:hover {
@@ -63,9 +71,14 @@ html {
 }
 
 .photo {
-    width: 30%;
-    border-radius: 1570px;
+    width: 32vw;
+    height: 32vw;
+    border-radius: 100%;
     box-shadow: 2px 0px 22px rgb(100, 40, 200);
+}
+
+.photo-container {
+    display: flex;
 }
 
 .page {
@@ -85,7 +98,7 @@ html {
     color: white;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
-    font-size: 5.5rem;
+    font-size: 444%;
 }
 
 .text h2 {
@@ -98,5 +111,12 @@ html {
 .text p {
     color: white;
     font-size: 24px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+.navbar-item-text {
+    display: none;
+}
 
 }

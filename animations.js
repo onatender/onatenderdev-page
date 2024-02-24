@@ -11,9 +11,9 @@ function renkDegistir() {
         else {
             i++;
         }
-        if (i == 255) darken = true;
+        if (i == 166) darken = true;
         if (i == 0) darken = false;
-    }, 40);
+    }, 50);
 }
 
 function boyutDegistir() {
@@ -30,7 +30,7 @@ function boyutDegistir() {
         }
         if (i > 1.1) largen = false;
         if (i < 1) largen = true;
-    }, 20);
+    }, 30);
 }
 
 renkDegistir();
