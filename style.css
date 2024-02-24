@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./mbg.png');
+}
+
+html {
+    background-image: url('./mbg.png');
+
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-items {
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    width: 26%;
+    justify-content: space-between;
+    padding-right: 75px;
+}
+
+.logo {
+    padding-left: 75px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+}
+
+.navbar-item {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    color: white;
+    padding: 5px 10px;
+    transition: .15s;
+}
+
+.navbar-item:hover {
+    cursor: pointer;
+    background-color: rgba(100, 40, 200, .6);
+    border-radius: 20px;
+}
+
+.photo {
+    width: 30%;
+    border-radius: 1570px;
+    box-shadow: 2px 0px 22px rgb(100, 40, 200);
+}
+
+.page {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 0px 0px 0px;
+}
+
+.text {
+    /* border: 1px solid white;*/
+    width: 50%;
+    padding: 0 40px;
+}
+
+.text h1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5.5rem;
+}
+
+.text h2 {
+    color: white;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+}
+
+.text p {
+    color: white;
+    font-size: 24px;
+
+}
