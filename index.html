@@ -69,6 +69,14 @@
             font-size: 24px;
             font-style: normal;
             color: white;
+            padding: 5px 10px;
+            transition: .15s;
+        }
+
+        .navbar-item:hover {
+            cursor: pointer;
+            background-color: rgba(100, 40, 200,.6);
+            border-radius: 20px;
         }
 
         .photo {
@@ -85,17 +93,32 @@
         }
 
         .text {
-            border: 1px solid white;
+           /* border: 1px solid white;*/
             width: 50%;
-            padding-left: 40px;
+            padding: 0 40px;
         }
 
         .text h1 {
             color: white;
-            font-weight: 600;
+            font-weight: bold;
+            font-family: 'Raleway', sans-serif;
+            font-size: 5.5rem;
+        }
+
+        .text h2 {
+            color: white;
+            font-weight: lighter;
             font-family: 'Raleway', sans-serif;
             font-size: 32px;
         }
+
+        .text p {
+            color: white;
+            font-size: 24px;
+            
+        }
+
+       
     </style>
 </head>
 
@@ -103,16 +126,17 @@
     <div class="navbar">
         <h1 class="logo">onatender.dev</h1>
         <div class="navbar-items">
-            <div class="navbar-item">NavbarItem1</div>
-            <div class="navbar-item">NavbarItem2</div>
-            <div class="navbar-item">NavbarItem3</div>
+            <div class="navbar-item">Giriş</div>
+            <div class="navbar-item">Yetkinlikler</div>
+            <div class="navbar-item">İletişim</div>
         </div>
     </div>
     <div class="page">
         <div class="text">
-            <h1>Onat Ender</h1>
-         <!-- <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda saepe laborum, mollitia numquam facilis consectetur, vitae sint corporis deleniti maiores culpa, eius ad nulla? Voluptates quod deleniti laudantium molestiae minima, quidem aspernatur pariatur odit perferendis perspiciatis provident facilis accusantium rem sunt neque eligendi nisi? Repellendus quam voluptates sequi expedita nulla impedit, dolores, architecto debitis quidem inventore, a cumque id animi? Mollitia perferendis voluptatum soluta, facere quae reprehenderit culpa ducimus dicta quas accusantium suscipit dolores rem eius velit nesciunt minima ex. Nulla labore veritatis fuga quas consequuntur deleniti culpa, consectetur enim illum. Placeat doloremque, nulla eveniet totam et atque quia quae asperiores omnis perspiciatis, saepe illo facilis non praesentium iste architecto aliquam? Amet aut vitae assumenda nemo repellat natus eius necessitatibus quam earum, sequi aspernatur ut officiis fugiat quibusdam ipsa adipisci et possimus sed optio? Vitae exercitationem saepe distinctio reiciendis nisi facere quaerat a quo, unde voluptatibus! Quae fugiat, odit deserunt, esse officiis corporis, nihil amet doloribus in id placeat est officia quibusdam. Exercitationem, velit odio aspernatur quia sapiente, quaerat nam suscipit quo quasi sequi nisi rem qui hic facilis nulla soluta maiores illo ab quae! Hic tenetur aperiam, explicabo, debitis est maiores porro deserunt at corporis commodi repellat harum deleniti!</p>
-      -->    </div>
+            <h2> Yazılıma mı ihtiyacınız var? </h2>
+            <h1>Bilgisayar Mühendisi <br>Onat Ender</h1>
+            <h2>Hızlı Teslimat, Kaliteli Yazılım!</h2>
+        </div>
         <img class="photo" src="fotodecope.png">
     </div>
 
